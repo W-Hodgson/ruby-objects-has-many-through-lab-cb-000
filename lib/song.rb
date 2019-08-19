@@ -1,4 +1,5 @@
-class Song 
+class Song
 
+  @@all = []
 
 end
