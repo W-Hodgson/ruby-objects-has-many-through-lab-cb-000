@@ -20,4 +20,8 @@ class Patient
   def doctors
     Appointment.all.map { |appointment| appointment.doctor  }
   end
+
+  def appointments
+
+  end
 end
